@@ -1,15 +1,14 @@
-h1 {
+1 {
   opacity: .8;
-  font-family: 'Oswald', sans-serif;
 }
 
 .nav{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'lato', sans-serif;
 }
 h2{
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'lato', sans-serif;
 }
 
 #brandName{
@@ -17,10 +16,13 @@ h2{
 }
 
 #Contact{
-  background-color: black;
+  background-color: white;
   text-align: center;
-  opacity: .7;
   margin-bottom: 10px;
+}
+
+#footerText{
+  font-size: 15px;
 }
 
 #contactDetails{
@@ -28,14 +30,20 @@ h2{
   font-family: Georgia;
 }
 
-.jumbotron{
-  opacity: .6;
-  font-family: 'Oswald', sans-serif;
-}
 .glyphicon{
   font-size: 60px;
   padding-right: 10px;
 }
+
+.jumbotron{
+  font-family: 'lato', sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  opacity: .9;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .nav{
   padding-left: 3px;
   padding-right: 3px;
@@ -49,7 +57,7 @@ text-align: center;
 }
 
 #title{
-  font-family: 'Oswald', sans-serif;
+font-family: 'lato', sans-serif;
 padding-left: 50px;
 letter-spacing: 5px;
 font-weight: bold;
@@ -62,14 +70,27 @@ background-color: lightgrey;
 text-shadow: 0px 15px 25px white;
 }
 
+#p1{
+  font-size: 15px;
+font-family: 'Lato', sans-serif;
+}
+
+#p2{
+  font-size: 25px;
+  font-family: 'lato', sans-serif;
+}
+
 .head{
   margin-top: 50px;
 }
 
+.container{
+  background-color: white;
+}
+
 
 body {
-background-image: url("https://images.unsplash.com/photo-1438986710423-1bf13038bc14?dpr=1&auto=format&fit=crop&w=1500&q=60&cs=tinysrgb");
-opacity: .8;
+background-image: url(backgroundimage.jpeg);
 margin: 0 auto;
 padding: 0px 10px 0px 10px;
 width: 100%;
@@ -77,9 +98,10 @@ text-align: center;
 }
 
 p {
-  font-family: 'Oswald', sans-serif;
+font-family: 'lato', sans-serif;
+ letter-spacing: 1px;
   color: grey;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 #pageOne{
@@ -88,9 +110,13 @@ p {
 }
 
 ul{
-  font-family: Georgia;
   font-size: 20px;
   font-style: italic bold;
+}
+.footer{
+  opacity: .8
+  width: 90%
+  background-color: lightblue;
 }
 
 .nav.navbar-nav.navbar-inverse {
@@ -133,3 +159,4 @@ ul{
 #smallerGlobe{
   font-size: 20px;
 }
+
