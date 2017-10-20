@@ -1,4 +1,4 @@
-1 {
+h1 {
   opacity: .8;
 }
 
@@ -155,8 +155,3 @@ ul{
   background-color: black;
   padding-right: 20px;
 }
-
-#smallerGlobe{
-  font-size: 20px;
-}
-
