@@ -7,20 +7,35 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>MYDOMAINO </title>
-<!-- Google Analytics -->
+    <!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-825838449"></script>
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-ga('create', 'UA-110306810-2', 'auto', {'allowLinker': true});
-  ga('require', 'linker');
-  ga('linker:autoLink', ['vddigi.com'] );
-ga('send', 'pageview');
+  gtag('config', 'AW-825838449');
 </script>
 <!-- End Google Analytics -->
     
+
+<!-- Event snippet for Click MyDomaino Contactbutton conversion page-->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-825838449/bqJdCOPp7nkQ8ZbliQM',
+      'value': 1.0,
+      'currency':'EUR',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
   </head>
   <body>
     <div class="head">
@@ -38,7 +53,7 @@ ga('send', 'pageview');
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-inverse">
-                 <li><a href="#about">About</a></li>
+                 <li><a onclick="return gtag_report_conversion('http://mydomaino.com/#about');" href="#about">About</a></li>
                  <li><a href="#pageOne">Projects</a></li></ul>
                  <ul class="nav navbar-nav navbar-inverse navbar-right">
                      <li id="inputBar"><input type="text" placeholder="search"></input></li>
