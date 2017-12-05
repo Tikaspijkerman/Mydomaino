@@ -15,6 +15,11 @@
   gtag('js', new Date());
 
   gtag('config', 'AW-825838449');
+    </script>
+    <script>
+  jQuery("#linkedin").one("click", function(){
+    gtag.report.conversion()
+  });
 </script>
   </head>
   <body>
@@ -75,7 +80,7 @@
      <i class="fa fa-phone" aria-hidden="true"></i><br></p>
   </div>
   <footer class="footer w3-center w3-black w3-padding-16">
-  <p id="footerText">Powered by <a href="https://www.linkedin.com/in/tikaspijkerman/" title="TS" target="_blank" class="w3-hover-text-green">Tika Spijkerman</a></p>
+  <p id="footerText">Powered by <a id="linkedin" href="https://www.linkedin.com/in/tikaspijkerman/" title="TS" target="_blank" class="w3-hover-text-green">Tika Spijkerman</a></p>
 </footer>
 </div>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
