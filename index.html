@@ -82,6 +82,16 @@
   <div class="col-lg-4 col-md-4 col-sm-4"><div class="thumbnail"><a href="#"><img src="https://images.unsplash.com/photo-1494571316879-64331bde40a0?dpr=1&auto=format&fit=crop&w=1456&q=60&cs=tinysrgb"></a></div></div>
 </div></div>
 <div id="Contact"><div class="container">
+							<form class="comment_form" data-validate="parsley">
+								<fieldset>
+									<input type="text" id="form_name" data-required="true" data-trigger="focusin focusout" placeholder="Name" class="parsley-validated">
+									<input type="text" id="form_email" data-required="true" data-trigger="focusin focusout" data-type="email" placeholder="Email Address" class="parsley-validated">
+									<textarea rows="8" id="form_message" data-required="true" data-trigger="focusin focusout" placeholder="Message" class="parsley-validated"></textarea>
+									<div class="send-button pull-right">
+										<a>SEND THE MESSAGE </a>
+									</div>
+								</fieldset>
+							</form>
           <p id="p2">Contact</p>
        <i class="fa fa-envelope-o" aria-hidden="true"></i><br>
     <p id="contactDetails">Tika.spijkerman1@gmail.com<br>
