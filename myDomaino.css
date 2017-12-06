@@ -184,11 +184,8 @@ ul{
         font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
         font-size:14px;
     }
-</style>
 
-<style type="text/css" id="form-designer-style">
-    /* Injected CSS Code */
-.form-label.form-label-auto { display: block; float: none; text-align: left; width: inherit; } /*PREFERENCES STYLE*/
+.form-label.form-label-auto { display: block; float: none; text-align: left; width: inherit; } 
     .form-all {
       font-family: Lucida Grande, sans-serif;
     }
@@ -331,4 +328,4 @@ ul{
     margin-top: initial;
   }
 
-</style>
+
