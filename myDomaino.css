@@ -11,6 +11,11 @@ h2{
   font-family: 'lato', sans-serif;
 }
 
+.img {
+	width: 309.2px;
+	height: 206.13px;
+}
+	
 #brandName{
   font-size: 15px;
 }
