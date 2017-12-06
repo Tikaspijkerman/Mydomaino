@@ -160,12 +160,13 @@ ul{
   font-size: 20px;
 }
 
-#contact-form input[type="text"],
-#contact-form input[type="email"],
-#contact-form textarea
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea
 {
     background-color: #fff;
     color: #000;
     width: 50%;
 }
+
 
