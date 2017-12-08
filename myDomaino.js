@@ -3,8 +3,13 @@ $(document).ready(function () {
 				    $(this).toggleClass("active");
 			  });
 		});
-$(document).ready(function () {
-	$(".send-button").on("click", function showDiv() {
-		document.getElementById('thankyouDiv').style.display = "block";
-	}
- 
+
+var elForm = document.getElementByClass('comment_form');
+
+$(function(){
+  $("#successMessage").hide();
+  $("#sendMessage").on("click", function(){
+      $("#successMessage").show();
+  });
+});    
+
