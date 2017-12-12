@@ -206,6 +206,10 @@ ul{
     border-radius: 0 !important;
 }
 
+.contact row {
+	height: 1000px;
+}
+
 
 .contact .btn {
     border-radius: 0;
