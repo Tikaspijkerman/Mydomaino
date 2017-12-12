@@ -184,12 +184,12 @@ ul{
 
 .contact p {
     padding-bottom: 80px;
-    color: black;
+    color: black !important;
 
 }
 
 .contact h2 {
-    color: black;
+    color: black !important;
     margin: 20px 0 20px;
 }
 
@@ -209,7 +209,7 @@ ul{
 
 .contact .btn {
     border-radius: 0;
-    width: 100%;
+    width: 90%;
     font-size: 15px;
     background-color: #f08080;
     color: white;
